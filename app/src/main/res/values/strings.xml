@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Class C</string>
+    <string name="lets_count_together">Lets Count Together</string>
+    <string name="count">COUNT</string>
+    <string name="welcome_to_our_restaurant">Welcome to our Restaurant</string>
+    <string name="which_kind_of_burger_you_need_to_order">Which kind of burger you need to order?!</string>
+    <string name="beef">Beef</string>
+    <string name="chicken">Chicken</string>
+    <string name="shrimp">Shrimp</string>
+    <string name="whick_extras_you_want_to_add">Whick Extras you want to add ?!</string>
+    <string name="cheese">Cheese</string>
+    <string name="salad">Salad</string>
+    <string name="onions">Onions</string>
+    <string name="order">Order</string>
+    <string name="dummy_text_for_total_order">dummy text for total order</string>
+    <string name="app_logo">App Logo</string>
+    <string name="bull_s_rent">Bull\'s</string>
+    <string name="rent">Rent</string>
+    <string name="nation_wide_car_rental_app">Nation wide car rental app</string>
+    <string name="hello_there">HELLO THERE,</string>
+    <string name="welcome_back">WELCOME BACK</string>
+    <string name="sign_in_to_continuo">Sign in to continuo</string>
+    <string name="password">Password</string>
+    <string name="username">Username</string>
+    <string name="remember_me">Remember Me</string>
+    <string name="forget_password">Forget Password?</string>
+    <string name="go">GO</string>
+    <string name="new_user_sign_up">NEW USER? SIGN UP</string>
+    <string name="welcome">WELCOME,</string>
+    <string name="signup_to_start_your_new_journey">SignUp to start your new journey</string>
+    <string name="fullname">FullName</string>
+    <string name="email">Email</string>
+    <string name="phone_no">Phone No</string>
+    <string name="already_have_an_account_login">ALREADY HAVE AN ACCOUNT? LOGIN</string>
+</resources>
