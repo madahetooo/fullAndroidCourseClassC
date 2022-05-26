@@ -11,7 +11,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:padding="20dp"
-        tools:context=".RegistrationActivity">
+        tools:context=".authsystem.RegistrationActivity">
 
         <ImageView
             android:id="@+id/imageView2"

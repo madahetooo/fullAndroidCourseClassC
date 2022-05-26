@@ -4,6 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
+import com.apps.fullandroidcourseclassc.authsystem.LoginActivity
 import com.apps.fullandroidcourseclassc.databinding.ActivitySplashScreenBinding
 
 @Suppress("DEPRECATION")
@@ -16,10 +17,10 @@ class SplashScreen : AppCompatActivity() {
         supportActionBar?.hide()
 
         Handler().postDelayed({
-           val intent = Intent(this,LoginActivity::class.java)
+           val intent = Intent(this, LoginActivity::class.java)
            startActivity(intent)
             finish()
-        },5000)
+        },3000)
 
     }
 }

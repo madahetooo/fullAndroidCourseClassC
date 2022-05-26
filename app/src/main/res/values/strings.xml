@@ -32,4 +32,6 @@
     <string name="email">Email</string>
     <string name="phone_no">Phone No</string>
     <string name="already_have_an_account_login">ALREADY HAVE AN ACCOUNT? LOGIN</string>
+    <string name="add">Add</string>
+    <string name="lorem_ipsum">Lorem ipsum</string>
 </resources>

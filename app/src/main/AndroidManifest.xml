@@ -10,13 +10,16 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FullAndroidCourseClassC">
         <activity
-            android:name=".RegistrationActivity"
+            android:name=".todolistapp.ui.TodoListActivity"
             android:exported="false" />
         <activity
-            android:name=".LoginActivity"
+            android:name=".authsystem.RegistrationActivity"
             android:exported="false" />
         <activity
-            android:name=".ResturantMenuActivity"
+            android:name=".authsystem.LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".restuarantapp.ResturantMenuActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
