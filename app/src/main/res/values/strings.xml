@@ -34,4 +34,13 @@
     <string name="already_have_an_account_login">ALREADY HAVE AN ACCOUNT? LOGIN</string>
     <string name="add">Add</string>
     <string name="lorem_ipsum">Lorem ipsum</string>
+    <string name="example_gmail_com">example@gmail.com</string>
+    <string name="mohanned">Mohanned</string>
+    <string name="my_name">My name</string>
+    <string name="my_email">My Email</string>
+    <string name="my_phone">My Phone</string>
+    <string name="my_password">My Password</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+
 </resources>
