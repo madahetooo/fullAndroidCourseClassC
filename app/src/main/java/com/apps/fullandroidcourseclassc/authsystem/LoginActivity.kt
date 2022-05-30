@@ -3,9 +3,9 @@ package com.apps.fullandroidcourseclassc.authsystem
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.apps.fullandroidcourseclassc.ui.BaseActivity
 import com.apps.fullandroidcourseclassc.databinding.ActivityLoginBinding
-import com.apps.fullandroidcourseclassc.restuarantapp.ResturantMenuActivity
-import com.apps.fullandroidcourseclassc.todolistapp.ui.TodoListActivity
+import com.apps.fullandroidcourseclassc.ui.HomeActivity
 
 class LoginActivity : AppCompatActivity() {
     private lateinit var binding: ActivityLoginBinding
@@ -15,7 +15,7 @@ class LoginActivity : AppCompatActivity() {
         setContentView(binding.root)
         supportActionBar?.hide()
         binding.btnLogin.setOnClickListener {
-            val intent = Intent(this, TodoListActivity::class.java)
+            val intent = Intent(this, BaseActivity::class.java)
             startActivity(intent)
             finish()
         }

@@ -3,9 +3,9 @@ package com.apps.fullandroidcourseclassc.authsystem
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.apps.fullandroidcourseclassc.ui.BaseActivity
 import com.apps.fullandroidcourseclassc.databinding.ActivityRegistrationBinding
-import com.apps.fullandroidcourseclassc.restuarantapp.ResturantMenuActivity
-import com.apps.fullandroidcourseclassc.todolistapp.ui.TodoListActivity
+import com.apps.fullandroidcourseclassc.ui.HomeActivity
 
 class RegistrationActivity : AppCompatActivity() {
     private lateinit var binding: ActivityRegistrationBinding
@@ -15,7 +15,7 @@ class RegistrationActivity : AppCompatActivity() {
         setContentView(binding.root)
         supportActionBar?.hide()
         binding.btnRegister.setOnClickListener {
-            val intent = Intent(this, TodoListActivity::class.java)
+            val intent = Intent(this, HomeActivity::class.java)
             startActivity(intent)
             finish()
         }

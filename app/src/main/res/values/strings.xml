@@ -29,9 +29,25 @@
     <string name="welcome">WELCOME,</string>
     <string name="signup_to_start_your_new_journey">SignUp to start your new journey</string>
     <string name="fullname">FullName</string>
-    <string name="email">Email</string>
+    <string name="email">ieslammedhat@gmail.com</string>
     <string name="phone_no">Phone No</string>
     <string name="already_have_an_account_login">ALREADY HAVE AN ACCOUNT? LOGIN</string>
     <string name="add">Add</string>
     <string name="lorem_ipsum">Lorem ipsum</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="eslam_medhat">Eslam Medhat</string>
+    <string name="inbox">Inbox</string>
+    <string name="sent">Sent</string>
+    <string name="stared">Stared</string>
+    <string name="log_out">Log out</string>
+    <string name="archive">Archive</string>
+    <string name="inbox_fragment">Inbox Fragment</string>
+    <string name="send_fragment">Send Fragment</string>
+    <string name="starred_fragment">Starred Fragment</string>
+    <string name="archive_fragment">Archive Fragment</string>
+    <string name="todolist">TodoList</string>
+    <string name="restaurant">Restaurant</string>
+    <string name="counter">Counter</string>
+    <string name="calculator">Calculator</string>
 </resources>

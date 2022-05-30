@@ -1,4 +1,4 @@
-package com.apps.fullandroidcourseclassc
+package com.apps.fullandroidcourseclassc.ui
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
