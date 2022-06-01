@@ -9,6 +9,7 @@
         android:roundIcon="@drawable/bullsrentlogo"
         android:supportsRtl="true"
         android:theme="@style/Theme.FullAndroidCourseClassC">
+
         <activity
             android:name=".ui.HomeActivity"
             android:exported="false" />
