@@ -50,4 +50,12 @@
     <string name="restaurant">Restaurant</string>
     <string name="counter">Counter</string>
     <string name="calculator">Calculator</string>
+    <string name="enter_first_number">Enter First Number</string>
+    <string name="enter_second_number">Enter Second Number</string>
+    <string name="plus">+</string>
+    <string name="minus">-</string>
+    <string name="multiplication">*</string>
+    <string name="division">/</string>
+    <string name="dummy_result">Dummy Result</string>
+    <string name="reset_values">Reset Values</string>
 </resources>

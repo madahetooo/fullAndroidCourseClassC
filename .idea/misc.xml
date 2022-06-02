@@ -14,7 +14,7 @@
         <entry key="app/src/main/res/layout/activity_splash_screen.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_todo_list.xml" value="0.33" />
         <entry key="app/src/main/res/layout/fragment_archive.xml" value="0.2734375" />
-        <entry key="app/src/main/res/layout/fragment_calculator.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/fragment_calculator.xml" value="0.33" />
         <entry key="app/src/main/res/layout/fragment_inbox.xml" value="0.2734375" />
         <entry key="app/src/main/res/layout/fragment_send.xml" value="0.2734375" />
         <entry key="app/src/main/res/layout/fragment_starred.xml" value="0.2734375" />

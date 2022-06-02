@@ -17,7 +17,6 @@ class BullsCarsViewPagerAdapter (var images: List<Int>) :RecyclerView.Adapter<Bu
     override fun onBindViewHolder(holder: BullsCarsViewHolder, position: Int) {
       val currentBullsCarsImage = images[position]
         holder.binding.ivBullsCarsItem.setImageResource(currentBullsCarsImage)
-
     }
 
     override fun getItemCount(): Int {

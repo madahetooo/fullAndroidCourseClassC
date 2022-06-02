@@ -4,6 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
+import android.widget.Toast
 import com.apps.fullandroidcourseclassc.authsystem.LoginActivity
 import com.apps.fullandroidcourseclassc.databinding.ActivitySplashScreenBinding
 
@@ -19,6 +20,7 @@ class SplashScreen : AppCompatActivity() {
         Handler().postDelayed({
            val intent = Intent(this, LoginActivity::class.java)
            startActivity(intent)
+
             finish()
         },3000)
 

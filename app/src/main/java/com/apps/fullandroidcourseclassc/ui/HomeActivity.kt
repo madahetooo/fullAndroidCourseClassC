@@ -5,6 +5,7 @@ import android.os.Bundle
 import androidx.fragment.app.Fragment
 import com.apps.fullandroidcourseclassc.MainActivity
 import com.apps.fullandroidcourseclassc.R
+import com.apps.fullandroidcourseclassc.bullscarsapp.ui.BullsCarsActivity
 import com.apps.fullandroidcourseclassc.calculatorapp.CalculatorFragment
 import com.apps.fullandroidcourseclassc.databinding.ActivityHomeBinding
 import com.apps.fullandroidcourseclassc.restuarantapp.ResturantMenuActivity
@@ -17,15 +18,17 @@ class HomeActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityHomeBinding.inflate(layoutInflater)
         setContentView(binding.root)
-        setCurrentFragment(TodoListActivity())
+        supportActionBar?.hide()
+        setCurrentFragment(BullsCarsActivity())
         val todolistFragment = TodoListActivity()
         val restaurantFragment = ResturantMenuActivity()
         val counterFragment = MainActivity()
         val calculatorFragment = CalculatorFragment()
+        val bullsCarFragment = BullsCarsActivity()
 
         binding.bottomNavigationView.setOnNavigationItemSelectedListener {
             when(it.itemId){
-                R.id.miTodoList -> setCurrentFragment(todolistFragment)
+                R.id.miTodoList -> setCurrentFragment(bullsCarFragment)
                 R.id.miRestaurant -> setCurrentFragment(restaurantFragment)
                 R.id.miCounter -> setCurrentFragment(counterFragment)
                 R.id.miCalculator -> setCurrentFragment(calculatorFragment)
