@@ -22,6 +22,7 @@ class CalculatorFragment : Fragment(R.layout.fragment_calculator) {
         binding.btnAddition.setOnClickListener {
 
             if (binding.etFirstNumber.text.isNotEmpty() && binding.etSecondNumber.text.isNotEmpty()){
+
                 val firstNumber = binding.etFirstNumber.text.toString().toInt()
                 val secondNumber = binding.etSecondNumber.text.toString().toInt()
                 val result = firstNumber + secondNumber
@@ -54,7 +55,7 @@ class CalculatorFragment : Fragment(R.layout.fragment_calculator) {
             binding.etFirstNumber.text.clear()
             binding.etSecondNumber.text.clear()
             binding.tvValueResult.setText("")
-            Toast.makeText(activity,"Value Reseted",Toast.LENGTH_SHORT).show()
+            Toast.makeText(activity,"Value Reseted",Toast.LENGTH_SHORT).show() // Show Toast
         }
         return view
 

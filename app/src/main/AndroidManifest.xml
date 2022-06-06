@@ -9,7 +9,9 @@
         android:roundIcon="@drawable/bullsrentlogo"
         android:supportsRtl="true"
         android:theme="@style/Theme.FullAndroidCourseClassC">
-
+        <activity
+            android:name=".coroutineapp.CoroutineActivity"
+            android:exported="false" />
         <activity
             android:name=".ui.HomeActivity"
             android:exported="false" />
