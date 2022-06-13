@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FullAndroidCourseClassC">
         <activity
+            android:name=".ShoppingActivity"
+            android:exported="false" />
+        <activity
             android:name=".ui.SplashScreen"
             android:exported="false" />
         <activity
