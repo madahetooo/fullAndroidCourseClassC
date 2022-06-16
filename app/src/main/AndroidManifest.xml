@@ -10,7 +10,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FullAndroidCourseClassC">
         <activity
-            android:name=".ShoppingActivity"
+            android:name=".TodoListApiActivity"
+            android:exported="false" />
+        <activity
+            android:name=".coroutineapp.CoroutineActivity"
             android:exported="false" />
         <activity
             android:name=".ui.SplashScreen"
@@ -28,7 +31,7 @@
             android:name=".authsystem.LoginActivity"
             android:exported="false" />
         <activity
-            android:name=".coroutineapp.CoroutineActivity"
+            android:name=".shoppingitemlistapp.ui.ShoppingActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

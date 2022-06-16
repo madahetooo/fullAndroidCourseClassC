@@ -59,4 +59,12 @@
     <string name="dummy_result">Dummy Result</string>
     <string name="reset_values">Reset Values</string>
     <string name="dummy_text">Dummy Text</string>
+    <string name="itemname">ItemName</string>
+    <string name="item_amount">Item Amount</string>
+    <string name="add_new_item">Add New Item</string>
+    <string name="add_item_name">add item name</string>
+    <string name="enter_amount">enter amount</string>
+    <string name="cancel">Cancel</string>
+    <string name="amount">amount</string>
+    <string name="dummy_todo">Dummy Todo</string>
 </resources>
