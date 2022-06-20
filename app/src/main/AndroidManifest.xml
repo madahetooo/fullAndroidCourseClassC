@@ -2,6 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.apps.fullandroidcourseclassc">
 
+    <uses-permission android:name="android.permission.INTERNET"/>
     <application
         android:allowBackup="true"
         android:icon="@drawable/bullsrentlogo"
@@ -10,7 +11,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FullAndroidCourseClassC">
         <activity
-            android:name=".TodoListApiActivity"
+            android:name=".shoppingitemlistapp.ui.ShoppingActivity"
             android:exported="false" />
         <activity
             android:name=".coroutineapp.CoroutineActivity"
@@ -31,7 +32,7 @@
             android:name=".authsystem.LoginActivity"
             android:exported="false" />
         <activity
-            android:name=".shoppingitemlistapp.ui.ShoppingActivity"
+            android:name=".todolistapiapp.ui.TodoListApiActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
