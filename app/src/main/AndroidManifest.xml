@@ -2,14 +2,19 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.apps.fullandroidcourseclassc">
 
-    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
+        android:name=".breakingbadapi.BreakingBadApplication"
         android:allowBackup="true"
         android:icon="@drawable/bullsrentlogo"
         android:label="@string/app_name"
         android:roundIcon="@drawable/bullsrentlogo"
         android:supportsRtl="true"
         android:theme="@style/Theme.FullAndroidCourseClassC">
+        <activity
+            android:name=".BreakingBadActivity"
+            android:exported="false" />
         <activity
             android:name=".shoppingitemlistapp.ui.ShoppingActivity"
             android:exported="false" />
