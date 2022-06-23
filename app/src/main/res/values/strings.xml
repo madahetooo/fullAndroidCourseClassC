@@ -67,4 +67,5 @@
     <string name="cancel">Cancel</string>
     <string name="amount">amount</string>
     <string name="dummy_todo">Dummy Todo</string>
+    <string name="characterphoto">CharacterPhoto</string>
 </resources>

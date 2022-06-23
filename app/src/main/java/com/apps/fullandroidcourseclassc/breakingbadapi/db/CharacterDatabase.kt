@@ -4,12 +4,14 @@ import android.content.Context
 import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
+import androidx.room.TypeConverters
 import com.apps.fullandroidcourseclassc.breakingbadapi.model.BreakingBadCharacter
 
 @Database(
     entities = [BreakingBadCharacter::class],
     version = 1
 )
+@TypeConverters(AppTypeConverters::class)
 abstract class CharacterDatabase : RoomDatabase() {
 
     abstract fun createCharacterDao() : CharacterDao

@@ -13,7 +13,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FullAndroidCourseClassC">
         <activity
-            android:name=".BreakingBadActivity"
+            android:name=".breakingbadapi.ui.BreakingBadActivity"
             android:exported="false" />
         <activity
             android:name=".shoppingitemlistapp.ui.ShoppingActivity"
