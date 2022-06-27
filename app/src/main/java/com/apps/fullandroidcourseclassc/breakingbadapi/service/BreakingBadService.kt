@@ -10,7 +10,7 @@ const val BASE_URL = "https://www.breakingbadapi.com/api/"
 interface BreakingBadService {
 
     @GET("characters")
-    suspend fun getCharacters() : List<BreakingBadCharacter>
+     fun getCharacters() : List<BreakingBadCharacter>
 }
 
 object BreakingBadNetwork{

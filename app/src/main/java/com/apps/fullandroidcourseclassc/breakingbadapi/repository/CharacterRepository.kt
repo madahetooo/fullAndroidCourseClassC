@@ -9,7 +9,7 @@ class CharacterRepository(private val characterDao: CharacterDao) {
     //GETTING LIST FROM LOCAL DB
     var characterList:LiveData<List<BreakingBadCharacter>> = characterDao.findAllCharacters()
 
-    suspend fun refreshCharacter(){
+     fun refreshCharacter(){
         // Getting the list from API
         val characterList = BreakingBadNetwork.serviceApi.getCharacters()
 

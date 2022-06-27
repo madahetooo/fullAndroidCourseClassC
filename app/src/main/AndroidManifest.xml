@@ -13,7 +13,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FullAndroidCourseClassC">
         <activity
-            android:name=".breakingbadapi.ui.BreakingBadActivity"
+            android:name=".todolistapiapp.ui.TodoListApiActivity"
             android:exported="false" />
         <activity
             android:name=".shoppingitemlistapp.ui.ShoppingActivity"
@@ -37,7 +37,7 @@
             android:name=".authsystem.LoginActivity"
             android:exported="false" />
         <activity
-            android:name=".todolistapiapp.ui.TodoListApiActivity"
+            android:name=".breakingbadapi.ui.BreakingBadActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
