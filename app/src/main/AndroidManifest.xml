@@ -2,15 +2,34 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.apps.fullandroidcourseclassc">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+
     <application
+        android:name=".breakingbadapi.BreakingBadApplication"
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/bullsrentlogo"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@drawable/bullsrentlogo"
         android:supportsRtl="true"
         android:theme="@style/Theme.FullAndroidCourseClassC">
         <activity
-            android:name=".todolistapp.ui.TodoListActivity"
+            android:name=".todolistapiapp.ui.TodoListApiActivity"
+            android:exported="false" />
+        <activity
+            android:name=".shoppingitemlistapp.ui.ShoppingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".coroutineapp.CoroutineActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.SplashScreen"
+            android:exported="false" />
+        <activity
+            android:name=".ui.HomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.BaseActivity"
             android:exported="false" />
         <activity
             android:name=".authsystem.RegistrationActivity"
@@ -19,13 +38,7 @@
             android:name=".authsystem.LoginActivity"
             android:exported="false" />
         <activity
-            android:name=".restuarantapp.ResturantMenuActivity"
-            android:exported="false" />
-        <activity
-            android:name=".MainActivity"
-            android:exported="false" />
-        <activity
-            android:name=".SplashScreen"
+            android:name=".breakingbadapi.ui.BreakingBadActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/miInbox"
+        android:icon="@drawable/ic_inbox"
+        android:title="@string/inbox" />
+    <item
+        android:id="@+id/miSent"
+        android:icon="@drawable/ic_send"
+        android:title="@string/sent" />
+    <item
+        android:id="@+id/miStarred"
+        android:icon="@drawable/ic_starred"
+        android:title="@string/stared" />
+    <group android:id="@+id/group1">
+        <item
+            android:id="@+id/miArchive"
+            android:icon="@drawable/ic_archive"
+            android:title="@string/archive" />
+
+        <item
+            android:id="@+id/miLogOut"
+            android:icon="@drawable/ic_logout"
+            android:title="@string/log_out" />
+
+    </group>
+</menu>

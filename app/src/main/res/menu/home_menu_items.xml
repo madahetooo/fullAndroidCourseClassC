@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/miTodoList"
+        android:title="@string/todolist"
+        android:icon="@drawable/ic_todolist"/>
+    <item
+        android:id="@+id/miRestaurant"
+        android:title="@string/restaurant"
+        android:icon="@drawable/ic_restaurant"/>
+    <item
+        android:id="@+id/miCounter"
+        android:title="@string/counter"
+        android:icon="@drawable/ic_counter"/>
+    <item
+        android:id="@+id/miCalculator"
+        android:title="@string/calculator"
+        android:icon="@drawable/ic_calculator"/>
+</menu>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    app:startDestination="@id/characterListFragment">
+
+    <fragment
+        android:id="@+id/characterListFragment"
+        android:name="com.apps.fullandroidcourseclassc.breakingbadapi.ui.CharacterListFragment"
+        android:label="CharacterListFragment"
+        tools:layout="@layout/fragment_character_list"
+
+        >
+        <action
+            android:id="@+id/showCharacterImageFragment"
+          app:destination="@id/characterImageFragment"/>
+
+    </fragment>
+    <fragment
+        android:id="@+id/characterImageFragment"
+        android:name="com.apps.fullandroidcourseclassc.breakingbadapi.ui.CharacterImageFragment"
+        android:label="@string/fragment_character_image"
+        tools:layout="@layout/fragment_charcter_image">
+        <argument
+            android:name="imageUrl"
+            app:argType="string" />
+    </fragment>
+
+</navigation>
