@@ -68,4 +68,15 @@
     <string name="amount">amount</string>
     <string name="dummy_todo">Dummy Todo</string>
     <string name="characterphoto">CharacterPhoto</string>
+    <string name="characterimage">CharacterImage</string>
+    <string name="fragment_character_image">Fragment Character Image</string>
+    <string name="todolistapi">TodoListApi</string>
+    <string name="shoppinglistitem">ShoppingListItem</string>
+    <string name="clothesapp">ClothesApp</string>
+    <string name="pushnotification_app">PushNotification APP</string>
+    <string name="breaking_bad_api">Breaking Bad Api</string>
+    <string name="bulls_car">Bulls Car</string>
+    <string name="todolist_and_calculator">TodoList and Calculator</string>
+    <string name="email_address">Email Address</string>
+
 </resources>

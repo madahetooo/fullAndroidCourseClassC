@@ -6,28 +6,32 @@ import androidx.lifecycle.viewModelScope
 import com.apps.fullandroidcourseclassc.breakingbadapi.repository.CharacterRepository
 import kotlinx.coroutines.launch
 
-class CharacterListViewModel(private val characterRepository: CharacterRepository)
-    :ViewModel() {
+class CharacterListViewModel(private val characterRepository: CharacterRepository) : ViewModel() {
 
     init {
         refreshDataFromRepository()
     }
 
     //LIST FROM LOCAL DB
-    val characterList = characterRepository.characterList
+    val characterList = characterRepository.characters
+
     //Calling Data from Repository
-    fun refreshDataFromRepository(){
+    fun refreshDataFromRepository() {
         viewModelScope.launch {
             characterRepository.refreshCharacter()
         }
     }
 }
 
-
-class CharacterListViewModelFactory (private val characterRepository: CharacterRepository)
-    : ViewModelProvider.Factory{
+@Suppress("UNCHECKED_CAST")
+class CharacterListViewModelFactory(private val characterRepository: CharacterRepository) :
+    ViewModelProvider.Factory {
     override fun <T : ViewModel> create(modelClass: Class<T>): T {
-        return CharacterListViewModel(characterRepository) as T
+        if (modelClass.isAssignableFrom(CharacterListViewModel::class.java)) {
+            return CharacterListViewModel(characterRepository) as T
+
+        }
+        throw IllegalArgumentException("Unknown ViewModel Class")
     }
 
 }

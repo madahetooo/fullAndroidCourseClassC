@@ -7,6 +7,7 @@ import android.view.ViewGroup
 import android.widget.Toast
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
+import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.RecyclerView
 import androidx.swiperefreshlayout.widget.SwipeRefreshLayout
 import com.apps.fullandroidcourseclassc.R
@@ -28,28 +29,23 @@ class CharacterListFragment : Fragment() {
         return inflater.inflate(R.layout.fragment_character_list, container, false)
     }
 
-    @Deprecated(
-        "Deprecated in Java", ReplaceWith(
-            "super.onActivityCreated(savedInstanceState)",
-            "androidx.fragment.app.Fragment"
-        )
-    )
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
-
         val rvCharacterList = requireActivity().findViewById<RecyclerView>(R.id.rvCharacterList)
-
-        val characterListAdapter = CharacterListAdapter { breakingbadCharacter ->
-            {
-                //TODO
-
+        val adapter = CharacterListAdapter { bbCharacter ->
+            //TODO
+            if (bbCharacter.img != null) {
+                findNavController().navigate(
+                    CharacterListFragmentDirections.showCharacterImageFragment(
+                        bbCharacter.img
+                    )
+                )
             }
         }
-        characterListViewModel.characterList.observe(viewLifecycleOwner, { breakingBadCharacter ->
-            characterListAdapter.submitList(breakingBadCharacter)
+        rvCharacterList.adapter = adapter
+        characterListViewModel.characterList.observe(viewLifecycleOwner, { breakingbadCharacter ->
+            adapter.submitList(breakingbadCharacter)
         })
-        rvCharacterList.adapter = characterListAdapter
-
         val refreshLayout = requireActivity().findViewById<SwipeRefreshLayout>(R.id.refreshLayout)
         refreshLayout.setOnRefreshListener {
             characterListViewModel.refreshDataFromRepository() // Refresh Data

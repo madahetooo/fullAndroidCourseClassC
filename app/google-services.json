@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "37715928199",
+    "project_id": "fullandroidclassc",
+    "storage_bucket": "fullandroidclassc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:37715928199:android:c91dfef4d7221458ef0422",
+        "android_client_info": {
+          "package_name": "com.apps.fullandroidcourseclassc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "37715928199-me24fp4r2hobpu10ep6ejbi6skm9nfse.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDjJ1zr_FiTvdJnyATmVdhYcHcgBdjezK4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "37715928199-me24fp4r2hobpu10ep6ejbi6skm9nfse.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

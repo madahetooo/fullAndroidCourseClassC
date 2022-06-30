@@ -6,7 +6,7 @@ plugins {
 
 }
 apply plugin: "kotlin-kapt"
-
+apply plugin: 'com.google.gms.google-services'
 android {
     compileSdk 31
 
@@ -46,7 +46,6 @@ dependencies {
     implementation 'androidx.appcompat:appcompat:1.4.2'
     implementation 'com.google.android.material:material:1.6.1'
     implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
-
     //SDP
     implementation 'com.intuit.sdp:sdp-android:1.0.6'
 
@@ -85,6 +84,14 @@ dependencies {
     implementation 'com.github.bumptech.glide:glide:4.13.0'
     annotationProcessor 'com.github.bumptech.glide:compiler:4.13.0'
 
+    //FIREBASE
+    implementation platform('com.google.firebase:firebase-bom:29.1.0')//Firebase core
+    implementation 'com.google.firebase:firebase-analytics-ktx'//Analytics
+    implementation 'com.google.firebase:firebase-auth-ktx' // Authentication
+    implementation 'com.google.android.gms:play-services-auth:20.1.0' //GOOGLE SIGN IN
+    implementation 'com.google.firebase:firebase-firestore-ktx:24.0.2' // FireStore
+    implementation 'com.google.firebase:firebase-storage-ktx:20.0.1' // Storage
+    implementation 'com.google.firebase:firebase-messaging:23.0.2' //FCM, Firebase Cloud Messaging
 
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.3'

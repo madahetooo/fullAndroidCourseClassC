@@ -11,8 +11,8 @@ import com.apps.fullandroidcourseclassc.breakingbadapi.model.BreakingBadCharacte
 interface CharacterDao {
 
     @Query("SELECT * FROM character")
-    fun findAllCharacters() : LiveData<List<BreakingBadCharacter>>
+    fun findAllCharacters(): LiveData<List<BreakingBadCharacter>>
 
     @Insert(onConflict = OnConflictStrategy.REPLACE)
-    fun insertAllCharacters(characterList : List<BreakingBadCharacter>)
+    suspend fun insertAllCharacters(characterList: List<BreakingBadCharacter>)
 }

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/_16sdp"
+    tools:context=".MotherOfTheApps">
+
+    <Button
+        android:id="@+id/btnTodolistAndCalculator"
+        android:layout_width="@dimen/_200sdp"
+        android:layout_height="wrap_content"
+        android:text="@string/todolist_and_calculator"
+        app:layout_constraintBottom_toTopOf="@+id/btnBullsCarsAndCounter"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnBullsCarsAndCounter"
+        android:layout_width="@dimen/_200sdp"
+        android:layout_height="wrap_content"
+        android:text="@string/bulls_car"
+        app:layout_constraintBottom_toTopOf="@+id/btnBreakingBadApp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnTodolistAndCalculator" />
+
+    <Button
+        android:id="@+id/btnBreakingBadApp"
+        android:layout_width="@dimen/_200sdp"
+        android:layout_height="wrap_content"
+        android:text="@string/breaking_bad_api"
+        app:layout_constraintBottom_toTopOf="@+id/btnPushNotificationApp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnBullsCarsAndCounter" />
+
+    <Button
+        android:id="@+id/btnPushNotificationApp"
+        android:layout_width="@dimen/_200sdp"
+        android:layout_height="wrap_content"
+        android:text="@string/pushnotification_app"
+        app:layout_constraintBottom_toTopOf="@+id/btnClothesApp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnBreakingBadApp" />
+
+    <Button
+        android:id="@+id/btnClothesApp"
+        android:layout_width="@dimen/_200sdp"
+        android:layout_height="wrap_content"
+        android:text="@string/clothesapp"
+        app:layout_constraintBottom_toTopOf="@+id/btnShoppingItemApp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnPushNotificationApp" />
+
+    <Button
+        android:id="@+id/btnShoppingItemApp"
+        android:layout_width="@dimen/_200sdp"
+        android:layout_height="wrap_content"
+        android:text="@string/shoppinglistitem"
+        app:layout_constraintBottom_toTopOf="@+id/btnTodolistApiApp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnClothesApp" />
+
+    <Button
+        android:id="@+id/btnTodolistApiApp"
+        android:layout_width="@dimen/_200sdp"
+        android:layout_height="wrap_content"
+        android:text="@string/todolistapi"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnShoppingItemApp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
