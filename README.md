@@ -6,7 +6,6 @@ This project is for training purposes in Android with Kotlin Course.
 <img width="200" heigth="400"  src="https://user-images.githubusercontent.com/28203059/177842205-718ce30b-988f-43ed-a0b8-db9948911e68.png">
 <img width="200" heigth="400"  src="https://user-images.githubusercontent.com/28203059/177842209-9c1fc2c9-9751-4f29-99c1-d7314b115793.png">
 ===================================================
-
 `//Dependencies
 dependencies {
 
