@@ -1,18 +1,10 @@
 # fullAndroidCourseClassC
 This project is for training purposes in Android with Kotlin Course.
-![Screen Shot 2022-07-07 at 7 31 22 PM](https://user-images.githubusercontent.com/28203059/177842125-9d608e03-ff6e-4854-bfd9-323548cee6b0.png)
-![Screen Shot 2022-07-07 at 7 31 18 PM](https://user-images.githubusercontent.com/28203059/177842192-cd7010a1-9bce-451d-800b-fe3b0881b161.png)
-![Screen Shot 2022-07-07 at 7 31 11 PM](https://user-images.githubusercontent.com/28203059/177842200-16d4a343-e5a1-417b-947c-8a15ee97ea47.png)
-![Screen Shot 2022-07-07 at 7 31 01 PM](https://user-images.githubusercontent.com/28203059/177842205-718ce30b-988f-43ed-a0b8-db9948911e68.png)
-![Screen Shot 2022-07-07 at 7 30 39 PM](https://user-images.githubusercontent.com/28203059/177842209-9c1fc2c9-9751-4f29-99c1-d7314b115793.png)
-![Screen Shot 2022-07-07 at 7 30 28 PM](https://user-images.githubusercontent.com/28203059/177842213-3e834662-4c8e-4a40-bcd7-82cd5547a976.png)
-![Screen Shot 2022-07-07 at 7 30 24 PM](https://user-images.githubusercontent.com/28203059/177842222-ebccbbf1-4359-48d5-b0a6-34e6ff82f6bc.png)
-![Screen Shot 2022-07-07 at 7 29 21 PM](https://user-images.githubusercontent.com/28203059/177842225-159fa728-39de-4f3d-ae89-2c8d3a93792f.png)
-![Screen Shot 2022-07-07 at 7 29 10 PM](https://user-images.githubusercontent.com/28203059/177842230-06a0234a-4742-452a-84d3-0f60a3072825.png)
-![Screen Shot 2022-07-07 at 7 29 05 PM](https://user-images.githubusercontent.com/28203059/177842232-d7f45bd2-5376-4199-82dc-07eaeeef63dc.png)
-![Screen Shot 2022-07-07 at 7 29 01 PM](https://user-images.githubusercontent.com/28203059/177842234-289493a6-8a37-4b3f-b12c-d2b1201d4486.png)
-![Screen Shot 2022-07-07 at 7 28 52 PM](https://user-images.githubusercontent.com/28203059/177842236-896dbe1c-4173-4055-893e-7a882492af82.png)
-![Screen Shot 2022-07-07 at 7 28 46 PM](https://user-images.githubusercontent.com/28203059/177842239-83ad47c2-df7c-495a-9e2e-e10205c3ff14.png)
+<img width="200" heigth="400"  src="https://user-images.githubusercontent.com/28203059/177842125-9d608e03-ff6e-4854-bfd9-323548cee6b0.png">
+<img width="200" heigth="400"  src="https://user-images.githubusercontent.com/28203059/177842192-cd7010a1-9bce-451d-800b-fe3b0881b161.png">
+<img width="200" heigth="400"  src="https://user-images.githubusercontent.com/28203059/177842200-16d4a343-e5a1-417b-947c-8a15ee97ea47.png">
+<img width="200" heigth="400"  src="https://user-images.githubusercontent.com/28203059/177842205-718ce30b-988f-43ed-a0b8-db9948911e68.png">
+<img width="200" heigth="400"  src="https://user-images.githubusercontent.com/28203059/177842209-9c1fc2c9-9751-4f29-99c1-d7314b115793.png">
 ===================================================
 `dependencies {
     implementation "org.jetbrains.kotlin:kotlin-stdlib:1.4.32"
