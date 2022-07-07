@@ -8,9 +8,10 @@ This project is for training purposes in Android with Kotlin Course.
 ===================================================
 
 `
-//Dependencies
 
+//Dependencies
 dependencies {
+
     //Kotlin
     implementation "org.jetbrains.kotlin:kotlin-stdlib:1.4.32"
     
