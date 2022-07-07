@@ -8,7 +8,9 @@ This project is for training purposes in Android with Kotlin Course.
 ===================================================
 
 `
+
 //Dependencies
+
 dependencies {
 
     //Kotlin
