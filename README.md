@@ -8,10 +8,19 @@ This project is for training purposes in Android with Kotlin Course.
 ===================================================
 
 `
+//Dependencies
 dependencies {
+
+    //Kotlin
     implementation "org.jetbrains.kotlin:kotlin-stdlib:1.4.32"
+    
+    //Libs
     implementation fileTree(dir: 'libs', include: ['*.jar'])
+    
+    //KTX core
     implementation 'androidx.core:core-ktx:1.7.0'
+    
+    //AppCompact
     implementation 'androidx.appcompat:appcompat:1.4.1'
     
     //Material Design
