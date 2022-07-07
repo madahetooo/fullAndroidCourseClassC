@@ -19,7 +19,7 @@ class HomeActivity : AppCompatActivity() {
         binding = ActivityHomeBinding.inflate(layoutInflater)
         setContentView(binding.root)
         supportActionBar?.hide()
-        setCurrentFragment(BullsCarsActivity())
+        setCurrentFragment(TodoListActivity())
         val todolistFragment = TodoListActivity()
         val restaurantFragment = ResturantMenuActivity()
         val counterFragment = MainActivity()
@@ -28,7 +28,7 @@ class HomeActivity : AppCompatActivity() {
 
         binding.bottomNavigationView.setOnNavigationItemSelectedListener {
             when(it.itemId){
-                R.id.miTodoList -> setCurrentFragment(bullsCarFragment)
+                R.id.miTodoList -> setCurrentFragment(todolistFragment)
                 R.id.miRestaurant -> setCurrentFragment(restaurantFragment)
                 R.id.miCounter -> setCurrentFragment(counterFragment)
                 R.id.miCalculator -> setCurrentFragment(calculatorFragment)

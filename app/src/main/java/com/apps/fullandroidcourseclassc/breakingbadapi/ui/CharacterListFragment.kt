@@ -29,6 +29,7 @@ class CharacterListFragment : Fragment() {
         return inflater.inflate(R.layout.fragment_character_list, container, false)
     }
 
+    @Deprecated("Deprecated in Java")
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
         val rvCharacterList = requireActivity().findViewById<RecyclerView>(R.id.rvCharacterList)

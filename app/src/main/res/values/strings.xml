@@ -78,5 +78,20 @@
     <string name="bulls_car">Bulls Car</string>
     <string name="todolist_and_calculator">TodoList and Calculator</string>
     <string name="email_address">Email Address</string>
+    <string name="firstname">First Name</string>
+    <string name="new_first_name">New First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="new_last_name">New Last Name</string>
+    <string name="age">Age</string>
+    <string name="new_age">New Age</string>
+    <string name="save">SAVE</string>
+    <string name="retrieve">Retrieve</string>
+    <string name="update">Update</string>
+    <string name="delete">Delete</string>
+    <string name="upload_image">Upload Image</string>
+    <string name="download_image">Download Image</string>
+    <string name="delete_image">Delete Image</string>
+    <string name="bullscar">BullsCar</string>
+    <string name="navigation_drawer">Navigation Drawer</string>
 
 </resources>

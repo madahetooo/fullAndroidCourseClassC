@@ -2,8 +2,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.apps.fullandroidcourseclassc">
 
-<!--    <uses-permission android:name="android.permission.INTERNET" />-->
-
     <application
         android:name=".breakingbadapi.BreakingBadApplication"
         android:allowBackup="true"
@@ -12,6 +10,9 @@
         android:roundIcon="@drawable/bullsrentlogo"
         android:supportsRtl="true"
         android:theme="@style/Theme.FullAndroidCourseClassC">
+        <activity
+            android:name=".firebasestorageapp.ui.ClothesApp"
+            android:exported="false" />
         <activity
             android:name=".todolistapiapp.ui.TodoListApiActivity"
             android:exported="false" />

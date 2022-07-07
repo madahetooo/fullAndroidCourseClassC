@@ -14,5 +14,5 @@ interface CharacterDao {
     fun findAllCharacters(): LiveData<List<BreakingBadCharacter>>
 
     @Insert(onConflict = OnConflictStrategy.REPLACE)
-    suspend fun insertAllCharacters(characterList: List<BreakingBadCharacter>)
+     fun insertAllCharacters(characterList: List<BreakingBadCharacter>)
 }

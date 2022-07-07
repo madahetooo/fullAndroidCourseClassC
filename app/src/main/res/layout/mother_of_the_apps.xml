@@ -18,16 +18,16 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <Button
-        android:id="@+id/btnBullsCarsAndCounter"
-        android:layout_width="@dimen/_200sdp"
-        android:layout_height="wrap_content"
-        android:text="@string/bulls_car"
-        app:layout_constraintBottom_toTopOf="@+id/btnBreakingBadApp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnTodolistAndCalculator" />
+<!--    <Button-->
+<!--        android:id="@+id/btnBullsCarsAndCounter"-->
+<!--        android:layout_width="@dimen/_200sdp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="@string/bulls_car"-->
+<!--        app:layout_constraintBottom_toTopOf="@+id/btnBreakingBadApp"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.5"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/btnTodolistAndCalculator" />-->
 
     <Button
         android:id="@+id/btnBreakingBadApp"
@@ -38,13 +38,13 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnBullsCarsAndCounter" />
+        app:layout_constraintTop_toBottomOf="@+id/btnTodolistAndCalculator" />
 
     <Button
         android:id="@+id/btnPushNotificationApp"
         android:layout_width="@dimen/_200sdp"
         android:layout_height="wrap_content"
-        android:text="@string/pushnotification_app"
+        android:text="@string/navigation_drawer"
         app:layout_constraintBottom_toTopOf="@+id/btnClothesApp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"

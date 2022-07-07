@@ -20,6 +20,7 @@ class CharacterImageFragment : Fragment() {
         return inflater.inflate(R.layout.fragment_charcter_image,container,false)
     }
 
+    @Deprecated("Deprecated in Java")
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
 

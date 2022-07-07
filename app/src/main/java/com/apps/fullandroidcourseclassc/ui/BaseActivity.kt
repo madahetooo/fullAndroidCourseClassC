@@ -10,11 +10,14 @@ import androidx.appcompat.app.AlertDialog
 import androidx.fragment.app.Fragment
 import com.apps.fullandroidcourseclassc.*
 import com.apps.fullandroidcourseclassc.authsystem.LoginActivity
+import com.apps.fullandroidcourseclassc.bullscarsapp.ui.BullsCarsActivity
 import com.apps.fullandroidcourseclassc.databinding.ActivityBaseBinding
+import com.apps.fullandroidcourseclassc.firebasefirestoreapp.ui.FirestoreApp
 import com.apps.fullandroidcourseclassc.ui.fragments.ArchiveFragment
 import com.apps.fullandroidcourseclassc.ui.fragments.InboxFragment
 import com.apps.fullandroidcourseclassc.ui.fragments.SendFragment
 import com.apps.fullandroidcourseclassc.ui.fragments.StarredFragment
+import com.google.firebase.firestore.FirebaseFirestore
 
 class BaseActivity : AppCompatActivity() {
     lateinit var toggle: ActionBarDrawerToggle
@@ -32,18 +35,18 @@ class BaseActivity : AppCompatActivity() {
         binding.navView.setNavigationItemSelectedListener {
             when (it.itemId) {
                 R.id.miInbox -> {
-                    val inboxFragment = InboxFragment()
-                    setCurrentFragment(inboxFragment)
+                    val mainFragment = MainActivity()
+                    setCurrentFragment(mainFragment)
                     binding.drawerLayout.close()
 
                 }
                 R.id.miSent -> {
-             val sendFragment = SendFragment()
-                    setCurrentFragment(sendFragment)
+             val firestoreFragment = FirestoreApp()
+                    setCurrentFragment(firestoreFragment)
                     binding.drawerLayout.close()
                 }
                 R.id.miStarred -> {
-                    val starredFragment = StarredFragment()
+                    val starredFragment = BullsCarsActivity()
                     setCurrentFragment(starredFragment)
                     binding.drawerLayout.close()
                 }

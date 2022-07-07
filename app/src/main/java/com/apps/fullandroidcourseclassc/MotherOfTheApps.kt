@@ -8,7 +8,9 @@ import androidx.appcompat.app.AppCompatActivity
 import com.apps.fullandroidcourseclassc.authsystem.LoginActivity
 import com.apps.fullandroidcourseclassc.breakingbadapi.model.BreakingBadCharacter
 import com.apps.fullandroidcourseclassc.breakingbadapi.ui.BreakingBadActivity
+import com.apps.fullandroidcourseclassc.bullscarsapp.ui.BullsCarsActivity
 import com.apps.fullandroidcourseclassc.databinding.MotherOfTheAppsBinding
+import com.apps.fullandroidcourseclassc.firebasestorageapp.ui.ClothesApp
 import com.apps.fullandroidcourseclassc.shoppingitemlistapp.ui.ShoppingActivity
 import com.apps.fullandroidcourseclassc.todolistapiapp.ui.TodoListApiActivity
 import com.apps.fullandroidcourseclassc.ui.BaseActivity
@@ -29,7 +31,7 @@ class MotherOfTheApps : AppCompatActivity() {
             val intent = Intent(this, HomeActivity::class.java)
             startActivity(intent)
         }
-        binding.btnBullsCarsAndCounter.setOnClickListener {
+        binding.btnPushNotificationApp.setOnClickListener {
             val intent = Intent(this, BaseActivity::class.java)
             startActivity(intent)
         }
@@ -37,14 +39,10 @@ class MotherOfTheApps : AppCompatActivity() {
             val intent = Intent(this, BreakingBadActivity::class.java)
             startActivity(intent)
         }
-//        binding.btnPushNotificationApp.setOnClickListener {
-//            val intent = Intent(this, CloudMessagingApp::class.java)
-//            startActivity(intent)
-//        }
-//        binding.btnClothesApp.setOnClickListener {
-//            val intent = Intent(this, ClothesApp::class.java)
-//            startActivity(intent)
-//        }
+        binding.btnClothesApp.setOnClickListener {
+            val intent = Intent(this, ClothesApp::class.java)
+            startActivity(intent)
+        }
         binding.btnShoppingItemApp.setOnClickListener {
             val intent = Intent(this, ShoppingActivity::class.java)
             startActivity(intent)
