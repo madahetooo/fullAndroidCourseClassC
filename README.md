@@ -6,13 +6,18 @@ This project is for training purposes in Android with Kotlin Course.
 <img width="200" heigth="400"  src="https://user-images.githubusercontent.com/28203059/177842205-718ce30b-988f-43ed-a0b8-db9948911e68.png">
 <img width="200" heigth="400"  src="https://user-images.githubusercontent.com/28203059/177842209-9c1fc2c9-9751-4f29-99c1-d7314b115793.png">
 ===================================================
+
 `dependencies {
     implementation "org.jetbrains.kotlin:kotlin-stdlib:1.4.32"
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation 'androidx.core:core-ktx:1.7.0'
     implementation 'androidx.appcompat:appcompat:1.4.1'
-    implementation 'com.google.android.material:material:1.5.0' //Material Design
-    implementation 'androidx.constraintlayout:constraintlayout:2.1.3' // ConstraintLayout
+    
+    //Material Design
+    implementation 'com.google.android.material:material:1.5.0' 
+    
+    // ConstraintLayout
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.3'
 
     // RecyclerView
     implementation("androidx.recyclerview:recyclerview:1.2.1")
